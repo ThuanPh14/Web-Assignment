@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+#wrapper {
+    background-color: #F1F2F6;
+}
+
+.nav-container {
+    position: sticky;
+    top: 46px;
+    z-index: 2;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    border: 1px #808080 solid;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+}
+
+.cv-name-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.cv-name-input label {
+    margin-right: 10px;
+}
+
+.features {
+    padding: 0.5rem;
+     /* Adjust the background color as needed */
+    color: white; /* Adjust the text color as needed */
+}
+
+.features button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.75rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container #CV {
+    position: relative;
+    width: 80%;
+    /* max-width: 800px;  */
+    margin: 100px auto; 
+    background-color: #fff;
+}
+
+.container .personalInfo {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    padding-bottom: 1rem;
+    border-bottom: 2px #808080 solid;
+
+    padding: 2%;
+}
+
+.personalInfo .profileImg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px #808080 solid;
+}
+
+.personalInfo .information {
+    position: relative;
+    border: 1px #808080 solid;
+    padding-left: 2%;
+}
+
+.infoLines .box {
+    display: flex;
+}
+
+
+.information .header{
+    width: 100%;
+    border: none;
+}
+
+.information .header .right > * {
+    border: none;
+    padding: 0.3rem;
+    margin: 0.1rem;
+}
+
+#nameInput {
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    width: 90%;
+}
+
+.infoLines .box .left {
+    min-width: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.infoLines .box .left p {
+    font-size: 0.75rem;
+}
+
+.infoLines .box .right {
+    width: 100%;    
+}
+
+.infoLines .box .right > * {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Body */
+.body > div {
+    padding: 2% 2% 0 2%;
+}
+
+textarea {
+    width: 100px;
+    padding: 8px;
+    height: 30px;
+    outline: none;
+    resize: none;
+    font-size: 0.75rem;
+    border: none;
+    margin-top: 5px;
+}
+
+textarea.textarea-fullwidth {
+    width: 100%;
+}
+
+textarea.textarea-disabled {
+    width: 5px;
+}
+
+textarea:is(:valid) {
+    /* aaa */
+}
+
+textarea:is(:focus) {
+    /* aaa */
+}
+
+textarea::-webkit-scrollbar {
+    width: 0px;
+}
+
+.box {
+    position: relative;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.controls {
+    display: none; /* initially hide the buttons */
+}
+
+.education .box , .experiences .box, .activities .box, .certificates .box, .awards .box, .skills .box, .projects .box {
+    display: flex;
+    min-width: 200px;
+}
+
+.box .time {
+    display: flex;
+    /* align-items: center;  */
+    justify-content: center;
+}
+
+.box .description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box span {
+    padding-top: 7px;
+    font-size: 0.75rem;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project-details textarea {
+    padding: 8px 8px 0 8px;
+}
+
+.project-details .time {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.table-row {
+    position: relative;
+    display: flex;
+}
+
+.table-row .header-cell {
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    min-width: 150px;
+}
+
+.table-row .info-cell {
+    width: 100%;
+}
+
+.table-row textarea {
+    padding: 0 0 0 8px;
+}
+
+.table-row div {
+    border: 1px #D4D4D4 solid;
+}
+
+#avatar {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.controls {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    flex-direction: column; /* Arrange buttons in a column */
+    left: -7rem;
+}
+
+.controls button {
+    margin-bottom: 10px;
+    padding: 2px 4px; /* Add padding for better appearance */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Add cursor pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.controls button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+#project-details .project .table .header-cell {
+    font-weight: bold;
+}
