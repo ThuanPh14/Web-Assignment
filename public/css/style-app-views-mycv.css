@@ -1,0 +1,59 @@
+.contain{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.button-create {
+    background-color: #00b36b; /* Set the background color of the button */
+    color: #fff; /* Set the text color of the button */
+    padding: 0.5rem 1rem; /* Add padding to the button for better appearance */
+    border: none; /* Remove the default border */
+    border-radius: 0.3rem; /* Optional: Add rounded corners */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    transition: background-color 0.3s;
+  }
+  .button-create:hover {
+    background-color: #00cc7a;
+  }
+
+  .button-edit {
+    background-color: #00b36b; /* Set the background color of the button */
+    color: #fff; /* Set the text color of the button */
+    padding: 0.2rem 1rem; /* Add padding to the button for better appearance */
+    border: none; /* Remove the default border */
+    border-radius: 0.3rem; /* Optional: Add rounded corners */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    transition: background-color 0.3s;
+  }
+  .button-edit:hover {
+    background-color: #00cc7a;
+  }
+
+  .button-remove {
+    background-color: #ff5252; /* Set the background color of the button */
+    color: #fff; /* Set the text color of the button */
+    padding: 0.2rem 1rem; /* Add padding to the button for better appearance */
+    border: none; /* Remove the default border */
+    border-radius: 0.3rem; /* Optional: Add rounded corners */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    transition: background-color 0.3s;
+  }
+  .button-remove:hover {
+    background-color: #ff8080;
+  }
+
+  .button-share {
+    background-color: #007bff; /* Set the background color of the button */
+    color: #fff; /* Set the text color of the button */
+    padding: 0.2rem 1rem; /* Add padding to the button for better appearance */
+    border: none; /* Remove the default border */
+    border-radius: 0.3rem; /* Optional: Add rounded corners */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    transition: background-color 0.3s;
+  }
+  .button-share:hover {
+    background-color: #228dff;
+  }
+
